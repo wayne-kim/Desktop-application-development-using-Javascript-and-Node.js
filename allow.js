@@ -36,7 +36,6 @@
 // };
 // man.showFriends(callback);
 
-
 let arrow = (...args) => {
   let numbers = [];
   for (let index in args) {
