@@ -9,7 +9,5 @@ class SuperUser extends User {
   constructor(id, ps, auth){
     super(id,ps);
     this.auth = auth;
-  }
-
-  
+  }  
 }

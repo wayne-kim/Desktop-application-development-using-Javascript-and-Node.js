@@ -36,3 +36,4 @@ Baby.prototype.showBirthday = function(){
 }
 
 let baby = new Baby("김은우");
+

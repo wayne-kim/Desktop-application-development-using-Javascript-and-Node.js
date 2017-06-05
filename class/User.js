@@ -14,7 +14,6 @@ class User {
 
 let user = new User("wayne", 1234);
 console.log(user.getUserInfo());
-
 console.log(User instanceof Object);
 console.log(User instanceof Function);
 
