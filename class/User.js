@@ -18,4 +18,6 @@ console.log(user.getUserInfo());
 console.log(User instanceof Object);
 console.log(User instanceof Function);
 
-//정신 없구만
+//정신 없구만 ㅁㄴㅇㄻㄴㅇㄹ
+// /ㅁㄴㅇㄻㄴㅇㄹ
+//ㅁㄴㅇㄻㄴㄹㅇ
