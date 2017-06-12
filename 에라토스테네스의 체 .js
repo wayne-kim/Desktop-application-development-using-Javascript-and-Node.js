@@ -8,7 +8,7 @@ for (i = 2; i <= num; i++) {
     arr.push(i)
 }
 
-let start = new Date();
+console.time(`${num} 보다 작은 소수 구하기`)
 
 for (i = 2; i <= num; i++) { 
     if (arr[i] == 0) // 이미 체크된 수의 배수는 확인하지 않는다
@@ -24,5 +24,4 @@ for (i = 2; i <= num; i++) {
         console.log(arr[i])
 }
 
-let end = new Date();
-console.log((end -start)/1000 + "초");
+console.timeEnd(`${num} 보다 작은 소수 구하기`)

@@ -14,21 +14,19 @@
 
 ///////////////////////////////////////////////////////
 
-let length = 100000000
-
-let start = new Date();
-for(let i=0; i<length; i ++){
-  let obj = [];
-}
-let end = new Date();
-console.log("리터럴 형식 : " + (end.getTime() - start.getTime()) + "(ms)");
-
-start = new Date();
-for(let i=0; i<length; i ++){
-  let obj = new Array();
-}
-end = new Date();
-console.log("생성자 형식 : " + (end.getTime() - start.getTime()) + "(ms)");
+// let length = 100000000
+ 
+// console.time('리터럴 형식');
+// for(let i=0; i<length; i ++){
+//  let obj = {};
+// }
+// console.timeEnd('리터럴 형식');
+ 
+// console.time('생성자 형식');
+// for(let i=0; i<length; i ++){
+//  let obj = new Object();
+// }
+// console.timeEnd('생성자 형식');
 
 //////////////////////////////////////////////////////
 
@@ -43,13 +41,13 @@ console.log("생성자 형식 : " + (end.getTime() - start.getTime()) + "(ms)");
 
 //////////////////////////////////////////////////////////
 
-// let sum = 0;
-// let count = 0;
+let sum = 0;
+let count = 0;
 
-// let start = new Date();
-// while(true){
-//   let end = new Date();
-//   if((end.getTime() - start.getTime()) > 1000)break;
-//   count = count + 1;
-// }
-// console.log("연산 횟수 : "+ count);
+let start = new Date();
+while(true){
+  let end = new Date();
+  if((end.getTime() - start.getTime()) > 1000)break;
+  count = count + 1;
+}
+console.log("연산 횟수 : "+ count);
